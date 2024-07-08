@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/pics/favicon.png">
+    <title>Weather</title>
+</head>
+<body>
+<div class="container" id="weatherwrap">
+     <div class="Weather_card">
+        <div class="search">
+            <input type="text" id="search-box" placeholder="Enter Your City">
+            <button type="button" onclick="fun()">
+                <img src="/pics/search.png" alt="loading"  width="38px">
+            </button>
+        </div>
+        <div id="weather">
+            <img src="/pics/clear.png" alt="loading" class="weather_icon" width="100px">
+            <span class="temp">°C</span>
+            <span class="city">City Name</span>
+            <div class="detail">
+                <span class="humidity">%</span>
+                <span class="wind">Km/h</span>
+            </div>
+        </div>
+        <!-- <div class="empty">No Data</div> -->
+     </div>    
+</div>
+
+
+<script src="/js/main.js"></script>
+</body>
+</html>
